@@ -1228,7 +1228,7 @@ void Draw_Placements(){
             DrawPositionsRadioBoxes(CVAR_COSMETIC("HeartsCount"));
             DrawPositionSlider(CVAR_COSMETIC("HeartsCount"),-22,ImGui::GetWindowViewport()->Size.y,-125,ImGui::GetWindowViewport()->Size.x);
             DrawScaleSlider(CVAR_COSMETIC("HeartsCount"),0.7f);
-            UIWidgets::EnhancementSliderInt("Heart line length : %d", "##HeartLineLength", CVAR_COSMETIC("Hearts.LineLength"), 0, 20, "", 10);
+            UIWidgets::EnhancementSliderInt("Heart line length : %d", "##HeartLineLength", CVAR_COSMETIC("Hearts.LineLength"), 0, 20, "", 15);
             UIWidgets::Tooltip("This will set the length of a row of hearts. Set to 0 for unlimited length.");
             ImGui::NewLine();
             ImGui::EndTable();
