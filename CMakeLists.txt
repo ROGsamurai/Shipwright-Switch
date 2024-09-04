@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 20 CACHE STRING "The C++ standard to use")
 
 set(CMAKE_OSX_DEPLOYMENT_TARGET "10.15" CACHE STRING "Minimum OS X deployment version")
 
-project(Ship VERSION v8.0.6 LANGUAGES C CXX)
+project(Ship VERSION 8.0.6 LANGUAGES C CXX)
 set(PROJECT_BUILD_NAME "Leveled" CACHE STRING ""FORCE)
 set(PROJECT_TEAM "github.com/harbourmasters" CACHE STRING ""FORCE)
 
