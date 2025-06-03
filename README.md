@@ -52,7 +52,7 @@ sdcard
 Congratulations, you are now sailing with the Ship of Harkinian! Have fun!
 
 # Configuration
-
+Test
 ### Default keyboard configuration
 | N64 | A | B | Z | Start | Analog stick | C buttons | D-Pad |
 | - | - | - | - | - | - | - | - |
